@@ -12,6 +12,7 @@ pipeline {
             steps{
                 sh 'echo "Hello World"'
                 sh 'docker images'
+                sh 'docker ps -a'
             }
         }
     }

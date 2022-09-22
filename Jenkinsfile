@@ -13,6 +13,7 @@ pipeline {
                 sh 'echo "Hello World"'
                 sh 'docker images'
                 sh 'docker ps -a'
+                sh 'ls -lrth'
             }
         }
     }

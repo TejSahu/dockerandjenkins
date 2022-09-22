@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label 'JenkinsNode'}
 
     stages{
         stage('Verify Branch'){
